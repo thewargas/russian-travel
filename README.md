@@ -49,7 +49,7 @@
 
 ## Ссылки
 
-- Github Pages - thewargas.github.io/russian-travel/
+- Github Pages - https://thewargas.github.io/russian-travel/
 - Github - https://github.com/thewargas/russian-travel
 
 ---
