@@ -24,6 +24,11 @@
     gap: 48px 28px;
   }
 }
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(181px, 340px) minmax(181px, 352px);
+  }
+}
 @media (max-width: 605px) {
   .place {
     margin: 0 0 50px;
