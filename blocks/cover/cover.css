@@ -1,0 +1,11 @@
+.cover {
+  margin: 0 0 92px;
+  max-width: 1184px;
+  position: relative;
+  display: flex;
+}
+@media (max-width: 605px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
