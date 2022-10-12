@@ -46,3 +46,10 @@
 - задизайнить форму, через которую пользователи смогут отправить комментарий.
 
 ---
+
+## Ссылки
+
+- Github Pages - thewargas.github.io/russian-travel/
+- Github - https://github.com/thewargas/russian-travel
+
+---
