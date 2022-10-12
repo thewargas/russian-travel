@@ -6,10 +6,6 @@
   color: white;
   text-decoration: none;
 }
-.header__lang-link:first-child {
-  text-decoration: underline;
-  margin-right: 18px;
-}
 @media (max-width: 425px) {
   .header__lang-link {
     margin: 14px 0 8px;

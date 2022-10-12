@@ -1,17 +1,30 @@
 .cover__overlay {
   color: white;
-  background-color: rgba(42, 44, 47, 0.3);
-  object-fit: contain;
+  position: relative;
   width: 100%;
   height: 100%;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  transition: background-color 0.4s linear;
+  z-index: 1;
 }
-.cover__overlay:hover {
+.cover__overlay::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.4s linear;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.cover__overlay:hover::after {
   background-color: rgba(42, 44, 47, 0.8);
 }
