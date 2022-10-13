@@ -2,11 +2,7 @@
   color: white;
   position: relative;
   width: 100%;
-  height: 100%;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+  min-height: 740px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -27,4 +23,9 @@
 }
 .cover__overlay:hover::after {
   background-color: rgba(42, 44, 47, 0.8);
+}
+@media (max-width: 1184px) {
+  .cover__overlay {
+    min-height: calc(100vw / 1.6);
+  }
 }
